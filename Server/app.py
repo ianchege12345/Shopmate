@@ -14,7 +14,7 @@ from flask_mail import Mail, Message
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("postgresql://shopmate_bwbg_user:KsZRkRdSwBtbHiJ3LVSkle5v5LHA8zMg@dpg-cqoc95dsvqrc73feukd0-a.oregon-postgres.render.com/shopmate_bwbg")
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("postgresql://ianchege_user:FKTKOopBOWDrDZ0ErpS3BuhFFTotw3FK@dpg-cqojug5ds78s73c1vcig-a.oregon-postgres.render.com/ianchege")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'
 app.config["MAIL_SERVER"] = "live.smtp.mailtrap.io"
